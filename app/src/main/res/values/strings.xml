@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SumApp</string>
+
+    //Strings of input screen
+    <string name="num1">First Number</string>
+    <string name="num2">Second Number</string>
+    <string name="btn_result">Result</string>
+    <string name="btn_clear">Clear</string>
+
+    <string name="add">Add</string>
+    <string name="sub">Sub</string>
+    <string name="div">Div</string>
+
+    //Strings of output screen
+    <string name="txt_result">The Result: </string>
+    <string name="btn_back">Back to Input Screen</string>
+
+
+</resources>

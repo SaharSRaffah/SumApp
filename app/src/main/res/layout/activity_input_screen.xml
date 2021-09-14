@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Input.InputScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="10dp"
+            android:layout_marginBottom="15dp">
+
+        <EditText
+            android:id="@+id/ed_fNum"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/num1"
+            android:layout_weight="1"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/ed_sNum"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/num2"
+            android:layout_weight="1"
+            android:inputType="number"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="@string/btn_result"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:visibility="gone"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add"
+            android:id="@+id/btn_add"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:textAllCaps="false"
+            android:visibility="visible"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sub"
+            android:id="@+id/btn_sub"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:textAllCaps="false"
+            android:visibility="visible"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/div"
+            android:id="@+id/btn_div"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:textAllCaps="false"
+            android:visibility="visible"/>
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="@string/btn_clear"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
